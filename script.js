@@ -45,14 +45,14 @@ let S1 = prompt ('S chelovek i bereg');
 let S2 = prompt ('S chelovek i akula');
 let d = prompt ('Esli delfin est = 1 , inache 0')
 if (d==false){
-if (3*S1>=S2){
+if (3*S1<=S2){
     alert('Alive');
 }
 else {
     alert ('Shark bit')
 }}
 else {
-    if(3*S1 <= 2*S2){
+    if((3/2)*S1<=S2){
     alert('Alive');
 }
 else {
